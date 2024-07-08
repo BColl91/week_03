@@ -1,0 +1,34 @@
+///Sure! I'll create a simple Blackjack game (also known as Pontoon 21) web app for you. This will include HTML, CSS, and JavaScript. Since you mentioned including images of the cards, make sure you have the card images saved and correctly named (e.g., 2_of_clubs.png, ace_of_spades.png, etc.) in an images directory.///
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="blackjack-container">
+        <h1>Blackjack Game</h1>
+        <div class="game-board">
+            <div class="player-hand" id="playerHand">
+                <h2>Player's Hand</h2>
+                <div class="cards" id="playerCards"></div>
+                <p id="playerScore"></p>
+            </div>
+            <div class="dealer-hand" id="dealerHand">
+                <h2>Dealer's Hand</h2>
+                <div class="cards" id="dealerCards"></div>
+                <p id="dealerScore"></p>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="hitButton">Hit</button>
+            <button id="standButton">Stand</button>
+            <button id="restartButton">Restart</button>
+        </div>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
