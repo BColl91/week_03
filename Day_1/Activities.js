@@ -1,4 +1,6 @@
 //Act 1
+// image.style.width = 300px;
+// image.style.height = auto
 // const button = document.getElementById('toggleButton');
 // const image = document.getElementById('myImage');
 
@@ -14,25 +16,17 @@
 
 
 //Act2 STUCK
-// const button = document.getElementById('toggleButton');
-// const image = document.getElementById('myImage');
-// const imageURL = document.getElementById('imageURL');
+// myImage.style.width = "200px"
+// myImage.style.height = auto
 
-// button.addEventListener('click', () => {
-//     // Change the image source to the URL in the input box
-//     if (imageURL.value) {
-//         image.src = imageURL.value;
-//     }
-
-//     // Toggle image visibility
-//     if (image.style.display === 'none') {
-//         image.style.display = 'block';
-//         button.textContent = 'Hide Image';
-//     } else {
-//         image.style.display = 'none';
-//         button.textContent = 'Show Image';
-//     }
-// });
+// const myImageutft = document.getElementById(`myImage`)
+// const url = document.getElementById(`imageURL`)
+// const input = document.getElementById(`updateImage`)
+// url.addEventListener( `click`, () => {
+//     myImage.src = input.value
+//     myImage.style.width = "300px"
+// }
+// )
 
 
 // //Act3
@@ -48,18 +42,21 @@
 
 
 // //Act4
-const heading = document.getElementById('myHeading');
-const colorInput = document.getElementById('colorInput');
-const changeColorButton = document.getElementById('changeColorButton');
-const coordinates = document.getElementById('coordinates');
+// const heading = document.getElementById('myHeading');
+// const coordinatesDisplay = document.createElement('p');
+// coordinatesDisplay.id = 'coordinates';
+// coordinatesDisplay.textContent = 'Click anywhere on the page to see the coordinates';
+// document.body.appendChild(coordinatesDisplay);
 
-changeColorButton.addEventListener('click', () => {
-    const newColor = colorInput.value;
 
-    heading.style.color = newColor;
-});
+// document.addEventListener('click', (event) => {
+//     const x = event.clientX;
+//     const y = event.clientY;
 
-document.addEventListener('click', (event) => {
-   console.log(event)
-   console.log(event.target)
-});
+//     coordinatesDisplay.textContent = `X: ${x}, Y: ${y}`;
+// });
+
+
+
+    utft.src = input.value
+   utft.style.width = "300px"
